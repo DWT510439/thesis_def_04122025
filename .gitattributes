@@ -1,0 +1,13 @@
+# JSONL datasets
+*.jsonl filter=lfs diff=lfs merge=lfs -text
+data/*.jsonl filter=lfs diff=lfs merge=lfs -text
+# Model and embedding files
+*.faiss filter=lfs diff=lfs merge=lfs -text
+*.npy filter=lfs diff=lfs merge=lfs -text
+*.pt filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+# Databases
+*.sqlite3 filter=lfs diff=lfs merge=lfs -text
+knowledge_db/*.bin filter=lfs diff=lfs merge=lfs -text
+knowledge_db/*.sqlite3 filter=lfs diff=lfs merge=lfs -text
+*.npz filter=lfs diff=lfs merge=lfs -text
